@@ -84,11 +84,44 @@ z-index: 2;
         float: left;
     }
     .reservar {
-        background-color: #a29750;
+        background-color: #afa974;
         color: #fff5b0;
         padding: 10px;
         font-size: 1.0em;
         text-transform: uppercase;
                 float: right;
+    }
+    /*Barra de navegação vertical*/
+
+    #menu {
+        margin-top: 15px;
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul#navegacao {
+        float: left;
+    }
+    ul#navegacao a {
+        text-transform: uppercase;
+        font-size: 0.8em;
+        padding: 5px;
+        color: #6c672c;
+        line-height: 30px;
+        font-weight: bold;
+        }
+
+    ul#navegacao a:hover {
+        background-color: #fdf6be;
+    }
+
+    .depoimento {
+        width: 200px;
+        height: 140px;
+        float: right;
+        
     }
     
