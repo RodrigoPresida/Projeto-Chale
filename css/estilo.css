@@ -125,3 +125,19 @@ z-index: 2;
         
     }
     
+    /*Area de conteudos*/
+    
+    #area-principal {
+float: left;
+width: 50%;
+    }
+    #area-lateral {
+float: right;
+width: 50%;
+    }
+
+    .conteudo {
+        margin: 0px auto;
+        width: 90%;
+        background-color: red;
+    }
